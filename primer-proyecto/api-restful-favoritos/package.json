@@ -25,7 +25,8 @@
   "homepage": "https://github.com/fran8narf/mean2.0#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.4"
+    "express": "^4.15.4",
+    "mongoose": "^4.11.6"
   },
   "devDependencies": {
     "nodemon": "^1.11.0"
