@@ -8,27 +8,28 @@ function home (req, res) {
 
 function getFavorite (req, res){
 	var favId = req.params.id;
-	res.status(200).send( {data: favId} );
+	res.status(200).send( {done: true, data: favId} );
 }
 
 function getAllFavorites (req, res) {
 
-	res.status(200).send( {  } );
+	res.status(200).send( { done: true } );
 }
 
 function addFavorite (req, res){
 	var params = req.body;
-	res.status(200).send( { favorite: params } );
+	res.status(200).send( { done: true, favorite: params } );
 }
 
 function deleteFavorite (req, res){
 	var favId = req.params.id;
-	res.status(200).send( {data: favId} );
+	res.status(200).send( { done: true, data: favId} );
 }
 
 function updateFavorite (req, res){
 	var params = req.body;
-	res.status(200).send( { favorite: params } );
+	var favId = req.params.id;
+	res.status(200).send( { done: true, data: favId } );
 }
 
 module.exports = {
