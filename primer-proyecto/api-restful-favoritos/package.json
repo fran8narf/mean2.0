@@ -1,0 +1,28 @@
+{
+  "name": "api-restful-favoritos",
+  "version": "1.0.0",
+  "description": "Proyecto API restful curso nodeJS-Angular2.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fran8narf/mean2.0.git"
+  },
+  "keywords": [
+    "nodejs",
+    "angular2",
+    "api",
+    "restful"
+  ],
+  "author": "NarfOner Scofield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fran8narf/mean2.0/issues"
+  },
+  "homepage": "https://github.com/fran8narf/mean2.0#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
