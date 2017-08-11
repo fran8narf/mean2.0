@@ -1,5 +1,7 @@
 'use strict'
 
+var favoriteSchema = require('../models/favorite');
+
 function home (req, res) {
 	res.status(200).send({
 							message: "Welcome to the Home!"
@@ -17,8 +19,22 @@ function getAllFavorites (req, res) {
 }
 
 function addFavorite (req, res){
+	var favorite = new favoriteSchema();
 	var params = req.body;
-	res.status(200).send( { added: true, favorite: params } );
+
+	//Recogemos los parámetros del body de la petición.
+	favorite.title = params.title;
+	favorite.description = params.description;
+	favorite.url = params.url;
+
+	//procedemos a hacer el insert en mongoDB.
+	favorite.save((err, favoriteStored) => {
+        if(err){
+            res.status(500).send({message: 'Error al guardar el favorite.'});
+        }else{
+            res.status(200).send({message: 'Favorite stored succesfully!' , favorite: favoriteStored});
+        }
+    });
 }
 
 function deleteFavorite (req, res){
