@@ -7,12 +7,12 @@ var api = express.Router();
 
 api.get('/', favoriteController.home);
 api.get('/favorite/:id', favoriteController.getFavorite);
-api.get('/favoritesList', favoriteController.getAllFavorites)
+api.get('/favorites', favoriteController.getAllFavorites)
 
-api.post('/addFavorite', favoriteController.addFavorite);
+api.post('/favorite', favoriteController.addFavorite);
 
-api.put('/updateFavorite/:id', favoriteController.updateFavorite);
+api.put('/favorite/:id', favoriteController.updateFavorite);
 
-api.delete('/deleteFavorite/:id', favoriteController.deleteFavorite);
+api.delete('/favorite/:id', favoriteController.deleteFavorite);
 
 module.exports = api;
