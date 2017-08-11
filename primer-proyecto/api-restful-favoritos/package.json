@@ -4,6 +4,7 @@
   "description": "Proyecto API restful curso nodeJS-Angular2.0",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +25,9 @@
   "homepage": "https://github.com/fran8narf/mean2.0#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
     "nodemon": "^1.11.0"
   }
 }
