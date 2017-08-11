@@ -1,6 +1,7 @@
 'use strict'
 
 var express = require('express');
+var bodyParser = require('body-parser'); //MIDDLEWARE - funcionalidad que se ejecuta antes de que se ejecute el script de Node.
 var app = express();
 
 app.listen(3000, function(){
