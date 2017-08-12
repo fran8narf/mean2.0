@@ -55,16 +55,26 @@ function addFavorite (req, res){
     });
 }
 
+function updateFavorite (req, res){
+	var favId = req.params.id;
+	var updatedFav = req.body;
+
+	console.log(updatedFav);
+
+	favoriteSchema.findByIdAndUpdate(favId, updatedFav, (err, favUpdated)=>{
+		if(err){
+            res.status(500).send({message: 'Error al actualizard el favorite.'});
+        }else{
+            res.status(200).send({message: 'Favorite updated succesfully!' , favUpdated: favUpdated});
+        }
+	});
+}
+
 function deleteFavorite (req, res){
 	var favId = req.params.id;
 	res.status(200).send( { deleted: true, data: favId} );
 }
 
-function updateFavorite (req, res){
-	var params = req.body;
-	var favId = req.params.id;
-	res.status(200).send( { updated: true, data: favId } );
-}
 
 module.exports = {
 	home,
