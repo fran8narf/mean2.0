@@ -72,7 +72,23 @@ function updateFavorite (req, res){
 
 function deleteFavorite (req, res){
 	var favId = req.params.id;
-	res.status(200).send( { deleted: true, data: favId} );
+
+	favoriteSchema.findById(favId, (err, favToDelete) =>{
+		if(err){
+            res.status(500).send({message: 'Error al recuperar el objeto seleccionado.'});
+        }
+        if(!favToDelete){
+        	res.status(404).send({message: "No se encontró el objeto que buscas."});
+        }else{
+        	favToDelete.remove(err =>{
+        		if(err){
+        			res.status(500).send({ message: "Objeto no se ha podidio borrar correctamente.", favToDelete: favToDelete});
+        		}else{
+        			res.status(200).send({ message: "Objeto borrado correctamente.", favToDelete: favToDelete});
+        		}
+        	});
+        }
+	});
 }
 
 
