@@ -14,8 +14,16 @@ function getFavorite (req, res){
 }
 
 function getAllFavorites (req, res) {
+	favoriteSchema.find({/*paramaetros de busqueda*/}, (err, allFavorites)=>{
+		if(err){
+            res.status(500).send({message: 'Error al mostrar loss resultados.'});
+        }
 
-	res.status(200).send( { retrieved: true } );
+        if(!allFavorites){
+        	res.status(404).send({message: "No se encontraron favoritos."});
+        }
+        res.status(200).send({ message: "Mostrando todos los favoritos.", allFavorites: allFavorites});
+	});
 }
 
 function addFavorite (req, res){
