@@ -10,6 +10,18 @@ var api = require('./routes/routes');
 
 app.use( bodyParser.urlencoded({ extended:false }) ); //función middleware <----
 app.use( bodyParser.json() );
+
+//middleware cabeceras HTTP
+app.use( (req, res, next)=>{
+	res.header('Access-Control-Allow-Origin', '*'); //Cualquiera puede hacer peticiones a nuestra API REST || Si se quiere capar el acceso desde una URL habría que sustituirlo por el asterisco.
+	res.header('Access-Control-Allow-Headers', 'X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method');
+
+	res.header('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, DELETE');
+	res.header('Allow', 'GET, POST, PUT, OPTIONS, DELETE');
+
+	next();
+});
+
 app.use('/', api);
 
 
