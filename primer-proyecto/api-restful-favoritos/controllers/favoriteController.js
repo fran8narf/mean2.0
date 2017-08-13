@@ -14,12 +14,13 @@ function getFavorite (req, res){
 	favoriteSchema.findById(favId, (err, favorite) => {
 		if(err){
             res.status(500).send({message: 'Error al mostrar el resultado.'});
+        }else{
+        	if(!favorite){
+        		res.status(404).send({message: "No se encontró el objeto que buscas."});
+        	}else{
+        		res.status(200).send({ message: "Mostrando el resultado.", favorite: favorite});
+        	}
         }
-
-        if(!favorite){
-        	res.status(404).send({message: "No se encontró el objeto que buscas."});
-        }
-        res.status(200).send({ message: "Mostrando el resultado.", favorite: favorite});
 	});
 }
 
@@ -27,12 +28,13 @@ function getAllFavorites (req, res) {
 	favoriteSchema.find ({/*paramaetros de busqueda*/}, (err, allFavorites)=>{
 		if(err){
             res.status(500).send({message: 'Error al mostrar loss resultados.'});
+        }else{
+	        if(!allFavorites){
+	        	res.status(404).send({message: "No se encontraron favoritos."});
+	        }else{
+	        	res.status(200).send({ message: "Mostrando todos los favoritos.", allFavorites: allFavorites});
+	        }
         }
-
-        if(!allFavorites){
-        	res.status(404).send({message: "No se encontraron favoritos."});
-        }
-        res.status(200).send({ message: "Mostrando todos los favoritos.", allFavorites: allFavorites});
 	}).sort('-_id');
 }
 
