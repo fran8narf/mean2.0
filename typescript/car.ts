@@ -3,7 +3,7 @@ interface baseCar{
 	getSpeed():number;
 }
 
-class Car{
+class Car implements baseCar{
 
 	public colour: string;
 	public model: string;
