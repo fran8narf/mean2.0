@@ -1,6 +1,15 @@
 var Car = (function () {
-    function Car() {
+    //constructor
+    function Car(model) {
+        if (model === void 0) { model = null; }
         this.speed = 0;
+        if (model == null) {
+            this.model = "BMW";
+        }
+        else {
+            this.model = model;
+        }
+        this.colour = "White";
     }
     //GETTERS
     Car.prototype.getColour = function () {
@@ -30,7 +39,8 @@ var Car = (function () {
     };
     return Car;
 }());
-var carOne = new Car();
+var carOne = new Car('Renault Clio');
+carOne.setSpeed(0);
 carOne.speedUp();
 carOne.speedUp();
 carOne.speedUp();
@@ -40,6 +50,7 @@ var carThree = new Car();
 carOne.setColour("Red");
 /*carTwo.setColour("Blue");
 carThree.setColour("Orange");*/
+console.log("El modelo del coche 1 es: " + carOne.getModel());
 console.log("El color del coche 1 es: " + carOne.getColour());
 console.log("La velocidad del coche 1 es: " + carOne.getSpeed());
 /*console.log("El color del coche 2 es: "+carTwo.getColour());

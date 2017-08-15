@@ -1,8 +1,26 @@
+interface baseCar{
+	getModel():string;
+	getSpeed():number;
+}
+
 class Car{
 
 	public colour: string;
 	public model: string;
-	public speed: number = 0;
+	public speed: number;
+
+	//constructor
+	constructor(model:string = null){
+		this.speed = 0;
+
+		if (model == null){
+			this.model = "BMW";
+		}else{
+			this.model = model;
+		}
+
+		this.colour = "White"
+	}
 
 	//GETTERS
 	public getColour(){
@@ -37,7 +55,8 @@ class Car{
 
 }
 
-var carOne = new Car();
+var carOne = new Car('Renault Clio');
+carOne.setSpeed(0);
 carOne.speedUp();
 carOne.speedUp();
 carOne.speedUp();
@@ -50,6 +69,7 @@ carOne.setColour("Red");
 /*carTwo.setColour("Blue");
 carThree.setColour("Orange");*/
 
+console.log("El modelo del coche 1 es: "+carOne.getModel());
 console.log("El color del coche 1 es: "+carOne.getColour());
 console.log("La velocidad del coche 1 es: "+carOne.getSpeed());
 
