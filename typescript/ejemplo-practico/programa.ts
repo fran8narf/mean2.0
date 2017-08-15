@@ -1,3 +1,24 @@
+/***************************************************************/
+//modulos internos
+module Tienda {
+	export class Ropa{
+		constructor(public title:string){
+			alert(title);
+		}
+	}
+
+	export class Informatica{
+		constructor(public title:string){
+			alert("Tienda de tecnologia: "+title);
+		}
+	}
+}
+
+//para usarlos en otros ficheros
+import Informatica = Tienda.Informatica;
+let loadInformatica = new Informatica('pcbox');
+/**************************************************************/
+
 //DECORADORES: Hace una copia de la clase y mediante unos parámetros se modifica la clase original para extender una clase sin tocar la original.
 function arranque(lanzar: string){
 	return (target: Function)=>{
@@ -27,6 +48,7 @@ class Programa{
 	}
 }
 
+//llamada a la función del decorador.
 var programaDos = new Programa();
 programaDos.saludo();
 

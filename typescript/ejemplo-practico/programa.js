@@ -14,6 +14,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+/***************************************************************/
+//modulos internos
+var Tienda;
+(function (Tienda) {
+    var Ropa = (function () {
+        function Ropa(title) {
+            this.title = title;
+            alert(title);
+        }
+        return Ropa;
+    }());
+    Tienda.Ropa = Ropa;
+    var Informatica = (function () {
+        function Informatica(title) {
+            this.title = title;
+            alert("Tienda de tecnologia: " + title);
+        }
+        return Informatica;
+    }());
+    Tienda.Informatica = Informatica;
+})(Tienda || (Tienda = {}));
+//para usarlos en otros ficheros
+var Informatica = Tienda.Informatica;
+var loadInformatica = new Informatica('pcbox');
+/**************************************************************/
 //DECORADORES: Hace una copia de la clase y mediante unos parámetros se modifica la clase original para extender una clase sin tocar la original.
 function arranque(lanzar) {
     return function (target) {
@@ -42,6 +67,7 @@ var Programa = (function () {
     ], Programa);
     return Programa;
 }());
+//llamada a la función del decorador.
 var programaDos = new Programa();
 programaDos.saludo();
 var VideoEditor = (function (_super) {
