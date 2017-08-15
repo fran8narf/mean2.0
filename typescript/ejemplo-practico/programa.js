@@ -61,3 +61,18 @@ function guardar() {
     listado.innerHTML = list;
     document.getElementById('nombre').value = "";
 }
+var i = 0;
+setInterval(function () {
+    console.log("hola." + i);
+    i += 1;
+}, 1000);
+var frutas = [
+    "manzana",
+    "pera",
+    "uva",
+    "banano"
+];
+var recorrer = frutas.map(function (fruta) {
+    console.log(fruta);
+    console.log(fruta.length);
+});

@@ -62,3 +62,21 @@ function guardar(){
 
 	( <HTMLInputElement>document.getElementById('nombre')).value = "";
 }
+
+var i = 0;
+setInterval(()=>{
+	console.log("hola."+i);
+	i+=1;
+}, 1000);
+
+var frutas = [
+	"manzana",
+	"pera",
+	"uva",
+	"banano"
+]
+
+var recorrer = frutas.map(fruta =>{
+	console.log(fruta);
+	console.log(fruta.length);
+});
