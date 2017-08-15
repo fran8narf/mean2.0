@@ -29,4 +29,21 @@ if ( a === 7 ){
 
 	console.log("DENTRO DEL IF 'a' vale: "+a+" Y 'b' vale: "+b);
 }
-console.log("FUERA DEL IF 'a' vale: "+a+" Y 'b' vale: "+b)
+console.log("FUERA DEL IF 'a' vale: "+a+" Y 'b' vale: "+b);
+
+//Funciones y tipado de las mismas
+
+function devolverNumero( num:number ):string {
+	return "Número devuelto: "+num;
+}
+
+function devolverString ( texto: string):number {
+	if (texto === 'hola'){
+		return 66;
+	}else{
+		return 0;
+	}
+}
+
+alert(devolverNumero(10));
+alert(devolverString('holo'));
