@@ -1,0 +1,459 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"HTML",
+				"HTMLElement\tinterface"
+			],
+			[
+				"get",
+				"getElementById\tmethod"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"fav",
+				"favId"
+			],
+			[
+				"favorite",
+				"favoriteSchema"
+			],
+			[
+				"favo",
+				"favoriteSchema"
+			],
+			[
+				"al",
+				"allFavorites"
+			],
+			[
+				"fa",
+				"favorite"
+			],
+			[
+				"dele",
+				"deleteFavorite"
+			],
+			[
+				"faov",
+				"favoriteController"
+			],
+			[
+				"gett",
+				"getAllFavorites"
+			],
+			[
+				"body",
+				"bodyParser"
+			],
+			[
+				"num",
+				"numTwo"
+			],
+			[
+				"nu",
+				"numOne"
+			],
+			[
+				"str",
+				"scrollTop"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"trans",
+				"transform"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"eas",
+				"ease-in"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"dest",
+				"destacado-1"
+			],
+			[
+				"d",
+				"destacado-2"
+			],
+			[
+				"des",
+				"destacado-1"
+			],
+			[
+				"max-",
+				"max-width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 264,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "prueba.ts",
+			"settings":
+			{
+				"buffer_size": 247,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "prueba.ts"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Install",
+		"selected_items":
+		[
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www",
+		"/C/wamp64/www/mean2.0",
+		"/C/wamp64/www/mean2.0/primer-proyecto",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/controllers",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/models",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/routes",
+		"/C/wamp64/www/mean2.0/typescript"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/mean2.0/typescript/prueba.js",
+		"/C/wamp64/www/mean2.0/typescript/pruebas-typescript.sublime-project",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/routes/routes.js",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/models/favorite.js",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/controllers/favoriteController.js",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/app.js",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/index.js",
+		"/C/wamp64/www/mean2.0/primer-proyecto/api-restful-favoritos/package.json",
+		"/C/wamp64/www/mean2.0/script-prueba-node/calculadora.js",
+		"/C/cygwin/home/NarfOner/.bash_profile",
+		"/C/desarrollos/chat_node-socketIO/client/index.html",
+		"/C/desarrollos/chat_node-socketIO/package.json",
+		"/C/desarrollos/chat_node-socketIO/server/index.js",
+		"/C/desarrollos/chat_node-socketIO/client/main.js",
+		"/C/Users/NarfOner/Downloads/FileZilla.xml",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/neurofeedback.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/sidebar.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/search.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/page.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/testimonios.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/quienes-somos.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/single.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/template-demo.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/scripts.js",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/footer.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/curriculum.php",
+		"/C/Users/NarfOner/Downloads/cv.php",
+		"/C/angularJS/linkedin-curso/pizza-app/index.html",
+		"/C/angularJS/linkedin-curso/index.html",
+		"/C/angularJS/linkedin-curso/js/lib/jquery-3.2.1.min.js",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/main.js",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/tratamientos.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-2/scripts.js",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-2/contacto.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-2/style.css",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-2/quienes-somos.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/contacto.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/functions.php",
+		"/C/Users/NarfOner/AppData/Local/Temp/fz3temp-1/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"favDeleted",
+			"favorite",
+			"params",
+			"favoriteStored",
+			"favorito",
+			"open",
+			"\"",
+			"return",
+			"console.log(",
+			"calculatorGo();",
+			".map-container",
+			"40",
+			"photo-grid-container",
+			"<li></li>",
+			"integrity=\"sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp\" crossorigin=\"anonymous",
+			"header",
+			"5",
+			"header",
+			"p",
+			" :",
+			".tabla-quienes-somos >",
+			"table",
+			"rgba",
+			"margin: 0px auto;",
+			"venida",
+			"tr",
+			"</strong>",
+			"<strong>",
+			".lis",
+			"1250",
+			"1500",
+			"home",
+			"destacada",
+			"destacado col-sm",
+			"destacado",
+			"https://cdn.pixabay.com/photo/2015/09/05/00/07/landscape-923382_960_720.jpg",
+			"http://stylehatch.github.io/photoset-grid/img/demo/nyc2-500px.jpg",
+			"http://stylehatch.github.io/photoset-grid/img/demo/nyc1-highres.jpg",
+			" Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident."
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 264,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								192,
+								248
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "prueba.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"auto_name": "prueba.ts",
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pruebas-typescript.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 230.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
