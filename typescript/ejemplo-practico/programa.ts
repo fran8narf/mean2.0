@@ -1,3 +1,13 @@
+//DECORADORES: Hace una copia de la clase y mediante unos parámetros se modifica la clase original para extender una clase sin tocar la original.
+function arranque(lanzar: string){
+	return (target: Function)=>{
+		target.prototype.saludo = function(): void {
+			alert(lanzar);
+		}
+	}
+}
+
+@arranque("Lanzamiento del ejemplo de un decorador en TS.")
 class Programa{
 	public nombre:string;
 	public version:number;
@@ -16,6 +26,9 @@ class Programa{
 		return this.version;
 	}
 }
+
+var programaDos = new Programa();
+programaDos.saludo();
 
 class VideoEditor extends Programa{
 	public Timeline:number;
