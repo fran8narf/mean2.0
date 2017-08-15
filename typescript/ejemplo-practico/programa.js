@@ -59,4 +59,5 @@ function guardar() {
     }
     var listado = document.getElementById("lista");
     listado.innerHTML = list;
+    document.getElementById('nombre').value = "";
 }

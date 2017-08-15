@@ -59,4 +59,6 @@ function guardar(){
 
 	var listado = <HTMLElement> document.getElementById("lista");
 	listado.innerHTML = list;
+
+	( <HTMLInputElement>document.getElementById('nombre')).value = "";
 }
